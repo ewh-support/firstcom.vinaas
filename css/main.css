@@ -946,7 +946,7 @@ p,
 }
 
   /* iPhone 4 ----------- */
-  @media only screen and (min-device-width : 320px) and (max-device-width :350px){
+  @media only screen and (min-device-width : 320px) and (max-device-width :359px){
   /* Styles */
   .section2 {
     width: 100%;
@@ -1098,7 +1098,7 @@ p,
       left: 6rem;
   }
   }
-  @media only screen and (min-device-width : 360px) and (max-device-width :370px){
+  @media only screen and (min-device-width : 360px) and (max-device-width :374px){
     /* Styles */
     .section2 {
       width: 100%;
@@ -1250,7 +1250,7 @@ p,
         left: 6rem;
     }
     }
-  @media only screen and (min-device-width : 375px) and (max-device-width :400px){
+  @media only screen and (min-device-width : 375px) and (max-device-width :414px){
     /* Styles */
     .section2 {
       width: 100%;
