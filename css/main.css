@@ -1572,7 +1572,7 @@ height: 22px;
         left: 6rem;
     }
     }
-    @media only screen and (min-device-width : 414px) and (max-device-width :420px){
+    @media only screen and (min-device-width : 414px) and (max-device-width :425px){
       /* Styles */
       #form {
         padding: 0rem;
