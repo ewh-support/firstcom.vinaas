@@ -814,6 +814,9 @@ p,
     .section3 {
       top: 108.3rem;
     }
+    .dropdown-menu{
+      width: 435px;
+    }
     #form {
       padding: 0rem;
       top: -29rem;
@@ -825,6 +828,7 @@ p,
       width: 100%;
       margin-bottom: 1rem;
       height: 3.5rem;
+      font-size: 20pt;
   }
   #form button {
     font-size: 15pt;
@@ -835,13 +839,13 @@ p,
   bottom: 1.7rem;
 }
     .section4 {
-    top: 135rem;
+    top: 134rem;
     }
     .section5 {
-      top: 204.3rem;
+      top: 202.7rem;
   }
     .section6 {
-      top: 4.7rem;
+      top: 4.8rem
     }
     .style_sp {
       width: 100%;
@@ -960,17 +964,17 @@ p,
       padding: 0rem;
       top: -5.7rem;
       position: absolute;
-      left: 0.2rem;
+      left: 0rem;
     }
     #form input {
-      width:69%;
+      width:65%;
       margin-bottom: 3px;
       border: 1px solid #bba693;
       color: #0b3262;
       height: 12px;
     }
     #form button {
-      width: 69%;
+      width: 65%;
       border: 1px solid #bba693;
       background-color: #FFF;
       color: #0b3262;
@@ -985,12 +989,12 @@ p,
   }
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     
-      font-size: 6pt;
+      font-size: 5px;
       left: 3px;
      
     }
     #form .style_buttom {
-      width: 69%;
+      width: 65%;
       margin-bottom: 10px;
       border: 1px solid #bba693;
       background-color: #FFF;
@@ -998,12 +1002,13 @@ p,
       font-weight: bold;
       font-size: 8px;
       font-family: Myriad Pro;
-      height: 18px;
-      background-image: url(../img/dangky.jpg);
+      height: 14px;
+      background-image: none;
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       border: none;
-      margin: 0 0 0 0rem;
+      margin: 0px 0 0px 0rem;
+      background-color: #1573a3
   }
     .section3 {
       top: 18.7rem;
@@ -1137,8 +1142,9 @@ p,
     }
       ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
       
-        font-size: 6pt;
+        font-size: 5px;
         left: 3px;
+        
        
       }
       #form .style_buttom {
@@ -1150,12 +1156,13 @@ p,
         font-weight: bold;
         font-size: 8px;
         font-family: Myriad Pro;
-        height: 18px;
-        background-image: url(../img/dangky.jpg);
+        height: 14px;
+        background-image: none;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         border: none;
-        margin: 0 0 0 0rem;
+        margin: 0px 0 0px 0rem;
+        background-color: #1573a3
     }
       .section3 {
         top: 21.8rem;
@@ -1227,7 +1234,7 @@ p,
       }
       .style_sp{
         top: -21rem;
-      padding-left: 4rem;
+      padding-left: 6rem;
         
       }
       .style_sp img {
@@ -1289,25 +1296,28 @@ p,
     }
       ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
       
-        font-size: 6pt;
+        font-size: 6px;
         left: 3px;
+        text-align: left;
+
        
       }
       #form .style_buttom {
         width: 69%;
-        margin-bottom: 10px;
-        border: 1px solid #bba693;
-        background-color: #FFF;
-        color: #fff;
-        font-weight: bold;
-        font-size: 8px;
-        font-family: Myriad Pro;
-        height: 18px;
-        background-image: url(../img/dangky.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        border: none;
-        margin: 0 0 0 0rem;
+    margin-bottom: 10px;
+    border: 1px solid #bba693;
+    background-color: #FFF;
+    color: #fff;
+    font-weight: bold;
+    font-size: 8px;
+    font-family: Myriad Pro;
+    height: 14px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    margin: 0px 0 0px 0rem;
+    background-color: #1573a3
     }
       .section3 {
         top: 22.2rem;
@@ -1374,7 +1384,7 @@ p,
       }
       .style_sp{
         top: -21rem;
-      padding-left: 4rem;
+      padding-left: 6rem;
         
       }
       .style_sp img {
@@ -1436,7 +1446,7 @@ p,
       }
         ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         
-          font-size: 6pt;
+          font-size: 5px;
           left: 3px;
          
         }
@@ -1549,48 +1559,4 @@ p,
           left: 6rem;
       }
       }
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-  /* Styles */
-  }
-  /* iPhone 5 ----------- */
-  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
-  }
-  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
-  }
-  /* iPhone 6 ----------- */
-  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
-  }
-  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
-  }
-  /* iPhone 6+ ----------- */
-  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
-  }
-  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
-  }
-  /* Samsung Galaxy S3 ----------- */
-  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
-  }
-  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
-  }
-  /* Samsung Galaxy S4 ----------- */
-  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-  /* Styles */
-  }
-  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-  /* Styles */
-  }
-  /* Samsung Galaxy S5 ----------- */
-  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-  /* Styles */
-  }
-  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-  /* Styles */
-  }
+ 
