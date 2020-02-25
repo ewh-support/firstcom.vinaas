@@ -1749,7 +1749,7 @@ height: 22px;
           left: 6rem;
       }
       }
-      @media only screen and (min-device-width : 425px) and (max-device-width :475px){
+      @media only screen and (min-device-width : 425px) and (max-device-width :555px){
         /* Styles */
         .section2 {
           width: 100%;
