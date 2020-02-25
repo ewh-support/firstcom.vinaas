@@ -417,12 +417,25 @@ p,
   right: -16rem;
   top: 0rem;
 }
+.style_button1{
+  background: url(../img/dangky3.png);
+  position: absolute;
+  background-size: cover;
+  width: 3rem;
+  height: 4.7rem;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  left: 43.9rem;
+  bottom: 1.3rem;
+  border: 0;
+ }
 .style_sp55{
   width: 6rem
 }
 .style_sp {
   width: 83%;
-  height: auto;
+  height: 50px;
   float: left;
   padding: 15rem 0 0 2rem;
   top: -7rem;
@@ -529,11 +542,28 @@ p,
   /* Desktops and laptops ----------- */
   @media only screen  and (min-width : 1024px) {
     /* Styles */
+    .btn-primary:hover{
+      background-color: transparent;
+      transform: scale(1.1);
+    }
       #form {
       top: -15rem;
       width: 70%;
       left: 6rem;
       }
+      .style_button1{
+        background: url(../img/dangky3.png);
+        position: absolute;
+        background-size: cover;
+        width: 4.6rem;
+        height: 7rem;
+        right: 0;
+        padding: 0;
+        margin: 0;
+        left: 57.9rem;
+        bottom: 1.3rem;
+        border: 0;
+       }
       #form input {
         width: 100%;
         margin-bottom: 0.5rem;
@@ -565,6 +595,14 @@ p,
       #form .style_buttom{
         margin: 0 0 0 0rem;
       }
+      .dropdown-menu ul, li {
+        width: 100%;
+        color: #0b3262;
+        font-weight: bold;
+        font-size: 15pt;
+        font-family: Myriad Pro;
+        border: 1px solid #bba693;
+    }
       .section2 {
 
         top: 31rem;
@@ -644,6 +682,10 @@ p,
       }
   @media only screen  and (min-width : 1366px) {
   /* Styles */
+  .btn-primary:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+  }
   .section7{
     display: none;
   }
@@ -655,10 +697,24 @@ p,
     .section2 {
       top: 40rem;
   }
+  .style_button1{
+    background: url(../img/dangky3.png);
+    position: absolute;
+    background-size: cover;
+    width: 5.8rem;
+    height: 9rem;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    left: 77.9rem;
+    bottom: 1.3rem;
+    border: 0;
+   }
   #form input {
     width: 100%;
     margin-bottom: 0.5rem;
     height: 2.5rem;
+    font-size: 20px;
 }
 .style_anh {
   padding: 0;
@@ -718,6 +774,7 @@ p,
     position: absolute;
     top: 17rem;
     width: 100%;
+    left: 0px;
 }
 .style_sp1 {
   left: 2rem;
@@ -747,6 +804,10 @@ p,
 
   @media only screen  and (min-width : 1440px){
     /* Styles */
+    .btn-primary:hover{
+      background-color: transparent;
+      transform: scale(1.1);
+    }
       #form {
       
         left: 0rem;
@@ -761,6 +822,19 @@ p,
       #form .style_buttom{
         margin: 0 0 0 2rem;
       }
+      .style_button1{
+        background: url(../img/dangky3.png);
+        position: absolute;
+        background-size: cover;
+        width: 5.8rem;
+        height: 9rem;
+        right: 0;
+        padding: 0;
+        margin: 0;
+        left: 81.9rem;
+        bottom: 1.3rem;
+        border: 0;
+       }
       .section2 {
         top: 40rem;
     }
@@ -783,6 +857,7 @@ p,
         width: 100%;
         margin-bottom: 0.5rem;
         height: 2.5rem;
+        font-size: 20px;
     }
     #form .style_buttom {
       margin: 0 0 0 0rem;
@@ -797,6 +872,7 @@ p,
 .style_section4 {
   position: absolute;
   top: 21rem;
+  left: 0px;
 }
 .style_sp5 {
   position: absolute;
@@ -811,6 +887,19 @@ p,
     .section2 {
     top: 55rem;
     }
+    .style_button1{
+      background: url(../img/dangky3.png);
+      position: absolute;
+      background-size: cover;
+      width: 8.8rem;
+    height: 14rem;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    left: 106.9rem;
+    bottom: 1.3rem;
+    border: 0;
+     }
     .section3 {
       top: 108.3rem;
     }
@@ -906,7 +995,19 @@ p,
       position: absolute;
       left: -32rem;
     }
-
+    .style_button1{
+      background: url(../img/dangky3.png);
+      position: absolute;
+      background-size: cover;
+      width: 8.8rem;
+    height: 14rem;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    left: 145.9rem;
+    bottom: 1.3rem;
+    border: 0;
+     }
     .section4 {
     top: 163rem;
     }
@@ -952,6 +1053,44 @@ p,
   /* iPhone 4 ----------- */
   @media only screen and (min-device-width : 320px) and (max-device-width :359px){
   /* Styles */
+  #form {
+    padding: 0rem;
+    top: -5.7rem;
+    position: absolute;
+    left: 0.2rem;
+    width: 18.9rem;
+}
+#form input {
+  width: 45%;
+    margin-bottom: 3px;
+    border: 1px solid #bba693;
+    color: #0b3262;
+    height: 19px;
+    float: left;
+    margin-right: 0.5rem;
+    font-size: large;
+}
+.dropdown{
+position: absolute;
+top: 44px;
+width: 45%;
+height: 25px;
+}
+#form button {
+width: 100%;
+border: 1px solid #bba693;
+background-color: #FFF;
+color: #0b3262;
+font-weight: bold;
+font-size: 8px;
+font-family: Myriad Pro;
+height: 0.8rem;
+/* width: -webkit-fill-available; */
+padding: 0;
+border-radius: unset;
+margin-bottom: 3px;
+height: 22px;
+}
   .section2 {
     width: 100%;
     position: absolute;
@@ -960,55 +1099,28 @@ p,
     .section2 .style_img{
       padding:0;
     }
-    #form {
-      padding: 0rem;
-      top: -5.7rem;
-      position: absolute;
-      left: 0rem;
-    }
-    #form input {
-      width:65%;
-      margin-bottom: 3px;
-      border: 1px solid #bba693;
-      color: #0b3262;
-      height: 12px;
-    }
-    #form button {
-      width: 65%;
-      border: 1px solid #bba693;
-      background-color: #FFF;
-      color: #0b3262;
-      font-weight: bold;
-      font-size: 5px;
-      font-family: Myriad Pro;
-      height: 0.8rem;
-      /* width: -webkit-fill-available; */
-      padding: 0;
-      border-radius: unset;
-      margin-bottom: 3px;
-  }
+   
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     
-      font-size: 5px;
+      font-size: 9px;
       left: 3px;
      
     }
     #form .style_buttom {
-      width: 65%;
+      width: 45%;
       margin-bottom: 10px;
       border: 1px solid #bba693;
-      background-color: #FFF;
+      background-color: #31658a;
       color: #fff;
       font-weight: bold;
-      font-size: 8px;
+      font-size: 10px;
       font-family: Myriad Pro;
-      height: 14px;
+      height: 19px;
       background-image: none;
-      background-repeat: no-repeat;
-      background-size: cover;
+      /* background-repeat: no-repeat; */
+      /* background-size: cover; */
       border: none;
-      margin: 0px 0 0px 0rem;
-      background-color: #1573a3
+      margin: 0 0 0 0rem;
   }
     .section3 {
       top: 18.7rem;
@@ -1067,6 +1179,9 @@ p,
    
        width: 100%;
      }
+     .style_sp{
+       display: block;
+     }
     .style_sp img {
 
       width: 20%;
@@ -1081,7 +1196,7 @@ p,
     .style_sp{
       top: -21rem;
     padding-left: 4rem;
-      
+      display: none;
     }
     .style_sp img {
       width: 55px;
@@ -1097,6 +1212,22 @@ p,
     top: 2rem;
   }
    */
+   .style_button1{
+    background:url("../img/dangky3.png");
+    position: absolute;
+    background-size: cover;
+    width: 1.5rem;
+    height: 2.4rem;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    left: 18.2rem;
+    bottom: 0.3rem;
+    border: 0;
+   }
+   .style_button1:hover{
+     transform: scale(1.1);
+   }
     .style_sp6 {
       width: 100%;
       top: -17px;
@@ -1115,31 +1246,42 @@ p,
       }
       #form {
         padding: 0rem;
-        top: -5.7rem;
+        top: -6.7rem;
         position: absolute;
         left: 0.2rem;
-      }
-      #form input {
-        width:69%;
-        margin-bottom: 3px;
-        border: 1px solid #bba693;
-        color: #0b3262;
-        height: 12px;
-      }
-      #form button {
-        width: 69%;
-        border: 1px solid #bba693;
-        background-color: #FFF;
-        color: #0b3262;
-        font-weight: bold;
-        font-size: 5px;
-        font-family: Myriad Pro;
-        height: 0.8rem;
-        /* width: -webkit-fill-available; */
-        padding: 0;
-        border-radius: unset;
-        margin-bottom: 3px;
+        width: 21.9rem;
     }
+    #form input {
+      width: 45%;
+      margin-bottom: 3px;
+      border: 1px solid #bba693;
+      color: #0b3262;
+      height: 23px;
+      float: left;
+      margin-right: 1rem;
+      font-size: large;
+  }
+  .dropdown{
+    position: absolute;
+    top: 53px;
+    width: 45%;
+    height: 25px;
+  }
+  #form button {
+    width: 100%;
+    border: 1px solid #bba693;
+    background-color: #FFF;
+    color: #0b3262;
+    font-weight: bold;
+    font-size: 8px;
+    font-family: Myriad Pro;
+    height: 0.8rem;
+    /* width: -webkit-fill-available; */
+    padding: 0;
+    border-radius: unset;
+    margin-bottom: 0px;
+    height: 22px;
+  }
       ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
       
         font-size: 5px;
@@ -1148,21 +1290,20 @@ p,
        
       }
       #form .style_buttom {
-        width: 69%;
+        width: 45%;
         margin-bottom: 10px;
         border: 1px solid #bba693;
-        background-color: #FFF;
+        background-color: #31658a;
         color: #fff;
         font-weight: bold;
-        font-size: 8px;
+        font-size: 10px;
         font-family: Myriad Pro;
-        height: 14px;
+        height: 21px;
         background-image: none;
-        background-repeat: no-repeat;
-        background-size: cover;
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
         border: none;
-        margin: 0px 0 0px 0rem;
-        background-color: #1573a3
+        margin: 0 0 0 0rem;
     }
       .section3 {
         top: 21.8rem;
@@ -1235,7 +1376,7 @@ p,
       .style_sp{
         top: -21rem;
       padding-left: 6rem;
-        
+        display: none;
       }
       .style_sp img {
         width: 55px;
@@ -1259,6 +1400,44 @@ p,
     }
   @media only screen and (min-device-width : 375px) and (max-device-width :414px){
     /* Styles */
+    #form {
+      padding: 0rem;
+      top: -6.7rem;
+      position: absolute;
+      left: 0.2rem;
+      width: 21.9rem;
+  }
+  #form input {
+    width: 45%;
+    margin-bottom: 3px;
+    border: 1px solid #bba693;
+    color: #0b3262;
+    height: 23px;
+    float: left;
+    margin-right: 1rem;
+    font-size: large;
+}
+.dropdown{
+  position: absolute;
+  top: 53px;
+  width: 45%;
+  height: 25px;
+}
+#form button {
+  width: 100%;
+  border: 1px solid #bba693;
+  background-color: #FFF;
+  color: #0b3262;
+  font-weight: bold;
+  font-size: 8px;
+  font-family: Myriad Pro;
+  height: 0.8rem;
+  /* width: -webkit-fill-available; */
+  padding: 0;
+  border-radius: unset;
+  margin-bottom: 0px;
+  height: 22px;
+}
     .section2 {
       width: 100%;
       position: absolute;
@@ -1267,33 +1446,20 @@ p,
       .section2 .style_img{
         padding:0;
       }
-      #form {
-        padding: 0rem;
-        top: -5.7rem;
+      .style_button1{
+        background:url("../img/dangky3.png");
         position: absolute;
-        left: 0.2rem;
-      }
-      #form input {
-        width:69%;
-        margin-bottom: 3px;
-        border: 1px solid #bba693;
-        color: #0b3262;
-        height: 12px;
-      }
-      #form button {
-        width: 69%;
-        border: 1px solid #bba693;
-        background-color: #FFF;
-        color: #0b3262;
-        font-weight: bold;
-        font-size: 5px;
-        font-family: Myriad Pro;
-        height: 0.8rem;
-        /* width: -webkit-fill-available; */
+        background-size: cover;
+        width: 1.5rem;
+        height: 2.4rem;
+        right: 0;
         padding: 0;
-        border-radius: unset;
-        margin-bottom: 3px;
-    }
+        margin: 0;
+        left: 21.7rem;
+        bottom: 0.3rem;
+        border: 0;
+       }
+      
       ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
       
         font-size: 6px;
@@ -1303,21 +1469,20 @@ p,
        
       }
       #form .style_buttom {
-        width: 69%;
-    margin-bottom: 10px;
-    border: 1px solid #bba693;
-    background-color: #FFF;
-    color: #fff;
-    font-weight: bold;
-    font-size: 8px;
-    font-family: Myriad Pro;
-    height: 14px;
-    background-image: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: none;
-    margin: 0px 0 0px 0rem;
-    background-color: #1573a3
+        width: 45%;
+        margin-bottom: 10px;
+        border: 1px solid #bba693;
+        background-color: #31658a;
+        color: #fff;
+        font-weight: bold;
+        font-size: 10px;
+        font-family: Myriad Pro;
+        height: 21px;
+        background-image: none;
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+        border: none;
+        margin: 0 0 0 0rem;
     }
       .section3 {
         top: 22.2rem;
@@ -1385,7 +1550,7 @@ p,
       .style_sp{
         top: -21rem;
       padding-left: 6rem;
-        
+      display: none;
       }
       .style_sp img {
         width: 55px;
@@ -1409,6 +1574,44 @@ p,
     }
     @media only screen and (min-device-width : 414px) and (max-device-width :420px){
       /* Styles */
+      #form {
+        padding: 0rem;
+        top: -7.7rem;
+        position: absolute;
+        left: 0.2rem;
+        width: 23.9rem;
+    }
+    #form input {
+      width: 45%;
+      margin-bottom: 7px;
+      border: 1px solid #bba693;
+      color: #0b3262;
+      height: 23px;
+      float: left;
+      margin-right: 1rem;
+      font-size: 10px;
+  }
+  .dropdown{
+    position: absolute;
+    top: 59px;
+    width: 45%;
+    height: 25px;
+}
+  #form button {
+    width: 100%;
+    border: 1px solid #bba693;
+    background-color: #FFF;
+    color: #0b3262;
+    font-weight: bold;
+    font-size: 8px;
+    font-family: Myriad Pro;
+    height: 0.8rem;
+    /* width: -webkit-fill-available; */
+    padding: 0;
+    border-radius: unset;
+    margin-bottom: 3px;
+    height: 22px;
+}
       .section2 {
         width: 100%;
         position: absolute;
@@ -1417,52 +1620,39 @@ p,
         .section2 .style_img{
           padding:0;
         }
-        #form {
-          padding: 0rem;
-          top: -6.7rem;
+        .style_button1{
+          background:url("../img/dangky3.png");
           position: absolute;
-          left: 0.2rem;
-        }
-        #form input {
-          width:69%;
-          margin-bottom: 3px;
-          border: 1px solid #bba693;
-          color: #0b3262;
-          height: 12px;
-        }
-        #form button {
-          width: 69%;
-          border: 1px solid #bba693;
-          background-color: #FFF;
-          color: #0b3262;
-          font-weight: bold;
-          font-size: 5px;
-          font-family: Myriad Pro;
-          height: 0.8rem;
-          /* width: -webkit-fill-available; */
+          background-size: cover;
+          width: 1.5rem;
+          height: 2.4rem;
+          right: 0;
           padding: 0;
-          border-radius: unset;
-          margin-bottom: 3px;
-      }
+          margin: 0;
+          left: 23.9rem;
+          bottom: 0.3rem;
+          border: 0;
+         }
+       
         ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         
-          font-size: 5px;
+          font-size: 10px;
           left: 3px;
          
         }
         #form .style_buttom {
-          width: 69%;
+          width: 45%;
           margin-bottom: 10px;
           border: 1px solid #bba693;
-          background-color: #FFF;
+          background-color: #31658a;
           color: #fff;
           font-weight: bold;
-          font-size: 8px;
+          font-size: 10px;
           font-family: Myriad Pro;
-          height: 23px;
-          background-image: url(../img/dangky.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
+          height: 21px;
+          background-image: none;
+          /* background-repeat: no-repeat; */
+          /* background-size: cover; */
           border: none;
           margin: 0 0 0 0rem;
       }
@@ -1537,7 +1727,7 @@ p,
         .style_sp{
           top: -22rem;
           padding-left: 7rem;
-          
+          display: none;
         }
         .style_sp img {
           width: 55px;
@@ -1559,4 +1749,190 @@ p,
           left: 6rem;
       }
       }
- 
+      @media only screen and (min-device-width : 425px) and (max-device-width :475px){
+        /* Styles */
+        .section2 {
+          width: 100%;
+          position: absolute;
+          top: 13rem;
+          }
+          .section2 .style_img{
+            padding:0;
+          }
+          .style_button1{
+            background:url("../img/dangky3.png");
+            position: absolute;
+            background-size: cover;
+            width: 1.5rem;
+            height: 2.4rem;
+            right: 0;
+            padding: 0;
+            margin: 0;
+            left: 23.9rem;
+            bottom: 0.3rem;
+            border: 0;
+           }
+           /*   */
+           
+           #form {
+            padding: 0rem;
+            top: -7.7rem;
+            position: absolute;
+            left: 0.2rem;
+            width: 23.9rem;
+        }
+        #form input {
+          width: 45%;
+          margin-bottom: 7px;
+          border: 1px solid #bba693;
+          color: #0b3262;
+          height: 23px;
+          float: left;
+          margin-right: 1rem;
+          font-size: large;
+      }
+      .dropdown{
+        position: absolute;
+        top: 59px;
+        width: 45%;
+        height: 25px;
+    }
+      #form button {
+        width: 100%;
+        border: 1px solid #bba693;
+        background-color: #FFF;
+        color: #0b3262;
+        font-weight: bold;
+        font-size: 8px;
+        font-family: Myriad Pro;
+        height: 0.8rem;
+        /* width: -webkit-fill-available; */
+        padding: 0;
+        border-radius: unset;
+        margin-bottom: 3px;
+        height: 22px;
+    }
+    .dropdown-menu ul, li {
+      width: 175px;
+      color: #0b3262;
+      font-weight: bold;
+      font-size: 10pt;
+      font-family: Myriad Pro;
+      border: 1px solid #bba693;
+      float: none;
+  }
+          ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+          
+            font-size: 9px;
+            left: 3px;
+           
+          }
+          #form .style_buttom {
+            width: 45%;
+            margin-bottom: 10px;
+            border: 1px solid #bba693;
+            background-color: #31658a;
+            color: #fff;
+            font-weight: bold;
+            font-size: 10px;
+            font-family: Myriad Pro;
+            height: 21px;
+            background-image: none;
+            /* background-repeat: no-repeat; */
+            /* background-size: cover; */
+            border: none;
+            margin: 0 0 0 0rem;
+        }
+          .section3 {
+            top: 25.6rem;
+          }
+          .section4 {
+            top: 31.4rem;
+          }
+          .section5 {
+            top: 46.6rem;
+          }
+          .section6 {
+            top: 2.3rem;
+          }
+          .style_sp5 {
+            position: absolute;
+          top: -6.7rem;
+          left: 8.5rem;
+          }
+          .style_sp5 img{
+            width: 20%;
+          }
+          .style_section4 {
+            top: 4rem;
+            left: 1rem;
+          }
+          .style_section6 {
+            position: absolute;
+            bottom: 0rem;
+            width: 100%;
+        }
+          .style_sp1 {
+            left: 2rem;
+            width: 22%;
+            float: left;
+            
+          }
+          .style_sp1 img {
+          width: 100%;
+          }
+          .style_sp2 {
+            top: -1rem;
+            float: left;
+            width: 22%;
+            padding-top: 3rem;
+          }
+          .style_img img {
+            width: 100%;
+          }
+          .style_sp3 {
+           float: left;
+            top: -8rem;
+            width: 23%;
+          }
+          .style_sp3 img{
+            float: left;
+         
+             width: 100%;
+           }
+          .style_sp img {
+      
+            width: 20%;
+          }
+          .style_anh{
+            width: 35px;
+            margin: 0;
+            padding: 0;
+            left: 1rem;
+            float: left;
+          }
+          .style_sp{
+            top: -22rem;
+            padding-left: 7rem;
+            display: none;
+          }
+          .style_sp img {
+            width: 55px;
+            float: left;
+        }
+        /* .style_sp1 {
+          left: 2rem;
+          position: absolute;
+        }
+        .style_sp2 {
+          left: 3rem;
+          position: absolute;
+          top: 2rem;
+        }
+         */
+          .style_sp6 {
+            width: 100%;
+            top: -17px;
+            left: 6rem;
+        }
+        }
