@@ -680,6 +680,126 @@ p,
         width: 95%;
       }
       }
+      @media only screen  and (min-width : 1280px) {
+        /* Styles */
+        .btn-primary:hover{
+          background-color: transparent;
+          transform: scale(1.1);
+        }
+        .section7{
+          display: none;
+        }
+        #form {
+          top: -21rem;
+          width: 89%;
+          left: 3.4rem;
+      }
+          .section2 {
+            top: 38rem;
+        }
+        .style_button1 {
+    background: url(../img/dangky3.png);
+    position: absolute;
+    background-size: cover;
+    width: 4.6rem;
+    height: 7rem;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    left: 72.9rem;
+    bottom: 1.3rem;
+    border: 0;
+}
+        #form input {
+          width: 100%;
+          margin-bottom: 0.5rem;
+          height: 2.5rem;
+          font-size: 20px;
+      }
+      .style_anh {
+        padding: 0;
+        margin: 0px;
+        float: left;
+        bottom: 0px;
+      
+        right: -16rem;
+        top: 0rem;
+      }
+      .style_sp55{
+        width: 6rem
+      }
+      .style_sp {
+        width: 100%;
+        height: auto;
+        float: left;
+        padding: 15rem 0 0 0rem;
+        top: -37rem;
+        position: absolute;
+        display: block;
+        left: 8rem;
+        
+      }
+      #form button {
+        font-size: 13pt;
+        height: 2.5rem;
+        border-radius: unset;
+      }
+      #form .style_buttom {
+        margin: 1.5rem 2rem 0 2rem;
+        height: 3rem;
+        background-size: contain;
+      }
+          .section3 { 
+            top: 71.4rem;
+          }
+          .section4 {
+            top: 88.9rem;
+          }
+          .section5 {
+            top: 134.6rem;
+          }
+          .section6 {
+            top: 2.9rem;
+          }
+          .style_section6 {
+            bottom: 1.2rem;
+          }
+          .style_sp5 {
+            position: absolute;
+            top: -26rem;
+            left: 33.6rem;
+            width: 40%;
+        }
+        .style_section4 {
+          position: absolute;
+          top: 17rem;
+          width: 100%;
+          left: 0px;
+      }
+      .style_sp1 {
+        left: 2rem;
+        /* width: max-content; */
+        width: 22%;
+      }
+      .style_sp2 {
+        left: 2rem;
+        /* width: max-content; */
+        width: 22%;
+      }
+      .style_sp3 {
+        left: 2rem;
+        /* width: max-content; */
+        width: 22%;
+      }
+      .style_sp1 img {
+        width: 100%;
+        padding-left: 4rem;
+      }
+      .style_sp2 img {
+        width: 100%;
+        padding-top: 4rem;
+      }
+        }
   @media only screen  and (min-width : 1366px) {
   /* Styles */
   .btn-primary:hover{
