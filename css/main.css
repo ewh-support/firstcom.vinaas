@@ -184,7 +184,10 @@ p,
   }
  #form .style_buttom:hover{
     transform: scale(1.1);
-    color: red;
+    color: #022d4c;
+  }
+  #form button:hover{
+    transform: scale(1);
   }
 
   .style_sp{
@@ -398,14 +401,14 @@ p,
     right: 12px;
     bottom: 0;
 }
-  #form .style_buttom {
-    width: 9rem;
-    margin-bottom: 10px;
-    height: 1.8rem;
-    background-image: url(../img/dangky.jpg);
-    margin: 0 0 0 0.8rem;
-    background-size: contain;
-    font-size: 7pt;
+#form .style_buttom {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 2.1rem;
+  background-image: url(../img/dangky.jpg);
+  margin: 0 0 0 0rem;
+  background-size: cover;
+  font-size: 7pt;
 }
 .style_anh {
   padding: 0;
@@ -427,7 +430,7 @@ p,
   padding: 15rem 0 0 2rem;
   top: -7rem;
   position: absolute;
-  
+  left: -1rem;
 }
 
 .style_sp img {
@@ -446,21 +449,31 @@ p,
 #form input {
   width: 100%;
   margin-bottom: 0.3rem;
-
+  font-size: 11px;
   height: 1.5rem;
 }
 #form {
   padding: 0rem;
   top: 7.5rem;
   position: absolute;
-  left: 6rem;
+  left: 5rem;
+  z-index: 1;
 }
   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     
-      font-size: 6pt;
+      font-size: 9px;
       left: 3px;
      
     }
+    .dropdown-menu ul, li {
+      width: 500px;
+      color: #0b3262;
+      font-weight: bold;
+      font-size: 7pt;
+      width: 100%;
+      font-family: Myriad Pro;
+      border: 1px solid #bba693;
+  }
     #form button {
       width: 100%;
       margin-bottom: 8px;
@@ -507,7 +520,7 @@ p,
 .style_sp5 {
   position: absolute;
   top: -16rem;
-  left: 5rem;
+  left: 20.5rem;
   width: 39%;
 }
 .style_section6 {
@@ -522,7 +535,7 @@ p,
   z-index: -1;
 }
 .style_img{
-  width: 30%;
+  width: 28%;
   position: absolute;
 }
   }
@@ -552,14 +565,15 @@ p,
       top: -15rem;
       width: 70%;
       left: 6rem;
+      z-index: 1;
       }
       .style_button1{
         background: url(../img/dangky3.png);
         position: absolute;
         background-size: cover;
-        width: 4.6rem;
-        height: 7rem;
-        right: 0;
+        width: 2.6rem;
+    height: 4rem;
+    right: 0;
         padding: 0;
         margin: 0;
         left: 57.9rem;
@@ -585,15 +599,20 @@ p,
       #form button {
         width: 100%;
         margin-bottom: 10px;
-        font-size: 9pt;
+        font-size: 10px;
         font-family: Myriad Pro;
-        height: 2rem;
+        height: 26px;
         padding-left: 0;
-        margin-left: 1px;
+        margin-left: 0;
+        border-radius: unset;
       }
       ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        font-size: 10pt;
+        font-size: 10px;
       }
+      #form .style_buttom {
+        margin: 0 0 0 0rem;
+        font-size: 10px;
+    }
       #form .style_buttom{
         margin: 0 0 0 0rem;
       }
@@ -626,34 +645,42 @@ p,
         top: 107.6rem;
       }
       .section6 {
-        top: 0.9rem;
+        top: 3rem;
+
     }
       .style_section6 {
         bottom: 0.9rem;
       }
       .style_sp1 {
         left: 2rem;
-        width: 22%;
-        float: left;
-        
-      }
+        /* width: max-content; */
+        width: 40%;
+    }
+      .dropdown-menu ul, li {
+        width: 100%;
+        color: #0b3262;
+        font-weight: bold;
+        font-size: 10px;
+        font-family: Myriad Pro;
+        border: 1px solid #bba693;
+    }
+    .style_sp2 {
+      top: 5rem;
+   position: absolute;
+    width: 47%;
+    left: 10rem;
+    }
+    .style_sp3 {
+      left: 27rem;
+    width: 34%;
+    position: absolute;
+    top: 1rem;
+    }
       .style_sp1 img {
       width: 100%;
       }
-      .style_sp2 {
-        top: -1rem;
-        float: left;
-        width: 22%;
-        padding-top: 3rem;
-      }
-      .style_img img {
-        width: 100%;
-      }
-      .style_sp3 {
-       float: left;
-        top: -8rem;
-        width: 23%;
-      }
+    
+     
       .style_sp3 img{
         float: left;
      
@@ -684,6 +711,25 @@ p,
       }
   @media only screen  and (min-width : 1280px) and (max-device-width : 1365px) {
     /* Styles */
+    .btn-top {
+      background-image: url("/img/nutdk.png");
+      background-repeat: no-repeat;
+      border: medium none;
+      bottom: 20px;
+      cursor: pointer !important;
+      display: block ;
+      height: 100px;
+      outline: medium none;
+      padding: 0;
+      position: fixed;
+      left: 74rem;
+      width: 62px;
+      z-index: 9999;
+  }
+    .btn-primary:hover{
+      background-color: transparent;
+      transform: scale(1.1);
+    }
     .btn-primary:hover{
       background-color: transparent;
       transform: scale(1.1);
@@ -692,25 +738,17 @@ p,
       display: none;
     }
     #form {
-      top: -21rem;
-      width: 89%;
+      top: -20rem;
+      width: 82%;
       left: 3.4rem;
+      z-index: 1;
+  
   }
       .section2 {
         top: 38rem;
     }
-    .style_button1 {
-background: url(../img/dangky3.png);
-position: absolute;
-background-size: cover;
-width: 4.6rem;
-height: 7rem;
-right: 0;
-padding: 0;
-margin: 0;
-left: 72.9rem;
-bottom: 1.3rem;
-border: 0;
+::placeholder{
+  font-size: 13px;
 }
     #form input {
       width: 100%;
@@ -743,15 +781,15 @@ border: 0;
     
   }
   #form button {
-    font-size: 13pt;
+    font-size: 13px;
     height: 2.5rem;
     border-radius: unset;
   }
   #form .style_buttom {
-    margin: 1.5rem 2rem 0 2rem;
+    margin: 0.8rem 2rem 0 2rem;
     height: 3rem;
     background-size: contain;
-  }
+}
       .section3 { 
         top: 71.4rem;
       }
@@ -782,18 +820,27 @@ border: 0;
   .style_sp1 {
     left: 2rem;
     /* width: max-content; */
-    width: 22%;
-  }
-  .style_sp2 {
-    left: 2rem;
-    /* width: max-content; */
-    width: 22%;
-  }
-  .style_sp3 {
-    left: 2rem;
-    /* width: max-content; */
-    width: 22%;
-  }
+    width: 28%;
+}
+  .dropdown-menu ul, li {
+    width: 100%;
+    color: #0b3262;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Myriad Pro;
+    border: 1px solid #bba693;
+}
+.style_sp2 {
+  left: 18rem;
+  width: 25%;
+  position: absolute;
+}
+.style_sp3 {
+  left: 39rem;
+  width: 18%;
+  position: absolute;
+  top: 1rem;
+}
   .style_sp1 img {
     width: 100%;
     padding-left: 4rem;
@@ -805,6 +852,22 @@ border: 0;
     }
   @media only screen  and (min-width : 1366px) {
   /* Styles */
+  .btn-top {
+    background-image: url("/img/nutdk.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    bottom: 20px;
+    cursor: pointer !important;
+    display: block ;
+    height: 100px;
+    outline: medium none;
+    padding: 0;
+    position: fixed;
+    left: 79rem;
+    width: 62px;
+    z-index: 9999;
+}
+ 
   .btn-primary:hover{
     background-color: transparent;
     transform: scale(1.1);
@@ -816,28 +879,17 @@ border: 0;
     top: -21rem;
     width: 89%;
       left: 2rem;
+      z-index: 1;
     }
     .section2 {
       top: 40rem;
   }
-  .style_button1{
-    background: url(../img/dangky3.png);
-    position: absolute;
-    background-size: cover;
-    width: 5.8rem;
-    height: 9rem;
-    right: 0;
-    padding: 0;
-    margin: 0;
-    left: 77.9rem;
-    bottom: 1.3rem;
-    border: 0;
-   }
+
   #form input {
     width: 100%;
     margin-bottom: 0.5rem;
     height: 2.5rem;
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 10px;
 }
 .style_anh {
@@ -852,6 +904,9 @@ border: 0;
 .style_sp55{
   width: 6rem
 }
+::placeholder{
+  font-size: 15px;
+}
 .style_sp {
   width: 100%;
   height: auto;
@@ -864,7 +919,7 @@ border: 0;
   
 }
 #form button {
-  font-size: 13pt;
+  font-size: 15px;
   height: 2.5rem;
   border-radius: unset;
 }
@@ -872,6 +927,7 @@ border: 0;
   margin: 1.5rem 2rem 0 2rem;
   height: 3rem;
   background-size: contain;
+  font-size: 15px;
 }
     .section3 { 
       top: 76rem;
@@ -891,7 +947,7 @@ border: 0;
     .style_sp5 {
       position: absolute;
       top: -26rem;
-      left: 36.5rem;
+      left: 36.7rem;
       width: 35%;
   }
   .style_section4 {
@@ -901,19 +957,19 @@ border: 0;
     left: 0px;
 }
 .style_sp1 {
-  left: 2rem;
-  /* width: max-content; */
-  width: 22%;
+  left: 0rem;
+  width: 28%;
 }
 .style_sp2 {
-  left: 2rem;
-  /* width: max-content; */
-  width: 22%;
+  left: 17rem;
+  width: 26%;
+  position: absolute;
 }
 .style_sp3 {
-  left: 2rem;
-  /* width: max-content; */
-  width: 22%;
+  left: 40rem;
+  width: 18%;
+  position: absolute;
+  top: 1rem;
 }
 .style_sp1 img {
   width: 100%;
@@ -932,32 +988,50 @@ border: 0;
       background-color: transparent;
       transform: scale(1.1);
     }
+    ::placeholder{
+      font-size: 15px;
+    }
     #form {
       left: 0rem;
       top: -22rem;
       width: 90%;
+      z-index: 1;
   }
       #form button{
-        font-size: 13pt;
+        font-size: 15px;
         height: 2.5rem;
         border-radius: unset;
       }
+      .dropdown-menu ul, li {
+        width: 100%;
+        color: #0b3262;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: Myriad Pro;
+        border: 1px solid #bba693;
+    }
       #form .style_buttom{
         margin: 0 0 0 2rem;
       }
-      .style_button1 {
-        background: url(../img/dangky3.png);
-        position: absolute;
-        background-size: cover;
-        width: 5.8rem;
-        height: 9rem;
-        right: 0;
+      .btn-top {
+        background-image: url("/img/nutdk.png");
+        background-repeat: no-repeat;
+        border: medium none;
+        bottom: 20px;
+        cursor: pointer !important;
+        display: block ;
+        height: 100px;
+        outline: medium none;
         padding: 0;
-        margin: 0;
-        left: 91.9rem;
-        bottom: 1.3rem;
-        border: 0;
+        position: fixed;
+        left: 83rem;
+        width: 62px;
+        z-index: 9999;
     }
+      .btn-primary:hover{
+        background-color: transparent;
+        transform: scale(1.1);
+      }
       .section2 {
         top: 42rem;
     }
@@ -971,7 +1045,7 @@ border: 0;
         top: 151.4rem;
       }
       .section6 {
-        top: 3.4rem;
+        top: 3.5rem;
       }
       .style_section6 {
         bottom: 1.2rem;
@@ -980,18 +1054,33 @@ border: 0;
         width: 100%;
         margin-bottom: 0.5rem;
         height: 2.5rem;
-        font-size: 20px;
+        font-size: 15px;
         padding-left: 10px;
     }
     #form .style_buttom {
       margin: 0 0 0 0rem;
       height: 2.5rem;
   }
+  .style_sp1 {
+    left: 0rem;
+    width: 27%;
+}
+.style_sp2 {
+  left: 19rem;
+  width: 25%;
+  position: absolute;
+}
+.style_sp3 {
+  left: 43rem;
+  width: 17%;
+  position: absolute;
+  top: 1rem;
+}
   .style_sp {
-    width: 100%;
+    width: 112%;
     padding: 15rem 0 0 5rem;
     top: -38rem;
-    left: 7rem;
+    left: 5rem;
 }
 .style_section4 {
   position: absolute;
@@ -1028,6 +1117,12 @@ border: 0;
     .section3 {
       top: 108.7rem;
     }
+    #form .style_buttom {
+      margin: 1.5rem 2rem 0 2rem;
+      height: 3rem;
+      background-size: contain;
+      font-size: 15pt;
+  }
     .dropdown-menu{
       width: 435px;
     }
@@ -1035,8 +1130,9 @@ border: 0;
       padding: 0rem;
       top: -31rem;
       position: absolute;
-      left: -12rem;
+      left: -13rem;
       width: 118%;
+      z-index: 1;
   }
     #form input {
       width: 100%;
@@ -1063,21 +1159,17 @@ border: 0;
       top: 5.8rem;
     }
     .style_sp {
-      width: 100%;
+      width: 130%;
       height: auto;
       float: left;
-      padding: 17rem 0 0 0rem;
+      padding: 17rem 0px 0px 0rem;
       top: -43rem;
       position: absolute;
   }
   ::placeholder{
     font-size: 15pt;
   }
-  #form .style_buttom {
-    /* width: 100%; */
-    margin: 0 0 0 0rem;
-    height: 3.5rem;
-}
+
 .style_sp1 {
   left: 2rem;
   /* width: max-content; */
@@ -1095,6 +1187,7 @@ border: 0;
 .style_sp3 {
   right: 0rem;
   width: 47rem;
+  left: 37rem;
 }
 .style_sp3 img {
   width: 53%;
@@ -1109,17 +1202,19 @@ border: 0;
 }
 @media only screen  and (min-width : 2560px) {
   /* Styles */
-    .section2 {
-    top: 55rem;
-    }
-    .section3 {
-      top: 127.5rem;
-    }
+  .section2 {
+    top: 77rem;
+}
+.section3 {
+  top: 149.5rem;
+}
     #form {
       padding: 0rem;
       top: -40rem;
       position: absolute;
       left: -32rem;
+      width: 166%;
+      z-index: 1;
     }
     .style_button1{
       background: url(../img/dangky3.png);
@@ -1134,15 +1229,15 @@ border: 0;
     bottom: 1.3rem;
     border: 0;
      }
-    .section4 {
-    top: 163rem;
-    }
-    .section5 {
-    top: 255.3rem;
-    }
-    .section6 {
-      top: -10.9rem;
+     .section4 {
+      top: 185rem;
   }
+  .section5 {
+    top: 277.3rem;
+}
+.section6 {
+  top: 11.2rem;
+}
   .style_sp {
     padding: 14rem 0 0 12rem;
     top: -55rem;
@@ -1153,15 +1248,33 @@ border: 0;
   
       top: 33rem;
   }
-  .style_sp3 {
-    right: 0rem;
-    width: 59rem;
+  .style_sp1 {
+    left: 2rem;
+    /* width: max-content; */
+    width: 30%;
+}
+.style_sp3 {
+  right: 0rem;
+  width: 30rem;
+  position: absolute;
+  left: 78rem;
+  
+}
+.style_sp3 img {
+  width: 100%;
+
+}
+.style_sp2 img{
+  width: 100%;
+}
+::placeholder{
+  font-size: 25px;
 }
 .style_sp2 {
-  width: 38%;
+  width: 29%;
   position: absolute;
-  left: 37rem;
-  top: 7rem;
+  left: 35rem;
+  top: 12rem;
 }
 .style_sp5 {
   position: absolute;
@@ -1172,7 +1285,31 @@ border: 0;
 .style_section6 {
   bottom: 2.4rem;
 }
-
+#form input {
+  width: 100%;
+  margin-bottom: 1rem;
+  height: 4.5rem;
+  font-size: 20pt;
+  padding-left: 12px;
+}
+#form button {
+  font-size: 25px;
+  height: 4.5rem;
+  border-radius: unset;
+}
+.dropdown-menu ul, li {
+  width: 100%;
+  color: #0b3262;
+  font-weight: bold;
+  font-size: 25px;
+  border: 1px solid #bba693;
+  height: 4rem;
+}
+#form .style_buttom {
+  height: 5rem;
+  background-size: contain;
+  font-size: 25px;
+}
 
 }
 
@@ -1181,42 +1318,42 @@ border: 0;
   /* Styles */
   #form {
     padding: 0rem;
-    top: -5.7rem;
+    top: -5.1rem;
     position: absolute;
     left: 0.2rem;
     width: 18.9rem;
 }
 #form input {
   width: 45%;
-    margin-bottom: 3px;
-    border: 1px solid #bba693;
-    color: #0b3262;
-    height: 19px;
-    float: left;
-    margin-right: 0.5rem;
-    font-size: large;
-    padding-left: 3px;
+  margin-bottom: 3px;
+  border: 1px solid #bba693;
+  color: #0b3262;
+  height: 15px;
+  float: left;
+  margin-right: 0.5rem;
+  padding-left: 0;
+  font-size: 8px;
 }
-.dropdown{
-position: absolute;
-top: 44px;
-width: 45%;
-height: 25px;
+.dropdown {
+  position: absolute;
+  top: 37px;
+  width: 45%;
+  height: 25px;
 }
 #form button {
-width: 100%;
-border: 1px solid #bba693;
-background-color: #FFF;
-color: #0b3262;
-font-weight: bold;
-font-size: 8px;
-font-family: Myriad Pro;
-height: 0.8rem;
-/* width: -webkit-fill-available; */
-padding: 0;
-border-radius: unset;
-margin-bottom: 3px;
-height: 22px;
+  width: 100%;
+  border: 1px solid #bba693;
+  background-color: #FFF;
+  color: #0b3262;
+  font-weight: bold;
+  font-size: 7px;
+  font-family: Myriad Pro;
+  height: 0.8rem;
+  /* width: -webkit-fill-available; */
+  padding: 0;
+  border-radius: unset;
+  margin-bottom: 0px;
+  height: 17px
 }
   .section2 {
     width: 100%;
@@ -1229,7 +1366,7 @@ height: 22px;
    
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     
-      font-size: 9px;
+      font-size: 6px;
       left: 3px;
      
     }
@@ -1240,12 +1377,11 @@ height: 22px;
       background-color: #31658a;
       color: #fff;
       font-weight: bold;
-      font-size: 10px;
+      font-size: 8px;
       font-family: Myriad Pro;
-      height: 19px;
+      height: 15px;
       background-image: none;
-      /* background-repeat: no-repeat; */
-      /* background-size: cover; */
+      background-repeat: no-repeat;
       border: none;
       margin: 0 0 0 0rem;
   }
@@ -1280,34 +1416,37 @@ height: 22px;
     }
     .style_sp1 {
       left: 2rem;
-      width: 22%;
+      width: 29%;
       float: left;
-      
-    }
+  }
     .style_sp1 img {
     width: 100%;
     }
     .style_sp2 {
       top: -1rem;
       float: left;
-      width: 22%;
+      width: 30%;
       padding-top: 3rem;
-    }
+      position: absolute;
+      left: 3.7rem;
+  }
     .style_img img {
       width: 100%;
     }
     .style_sp3 {
-     float: left;
-      top: -8rem;
-      width: 23%;
-    }
+      float: left;
+      top: 0rem;
+      width: 22%;
+      position: absolute;
+      left: 8.6rem;
+  }
     .style_sp3 img{
       float: left;
    
        width: 100%;
      }
      .style_sp{
-      top: -24.5rem;
+      top: -24rem;
       padding-left: 4rem;
       display: block;
      }
@@ -1549,7 +1688,7 @@ height: 22px;
     /* Styles */
     #form {
       padding: 0rem;
-      top: -6.7rem;
+      top: -6.3rem;
       position: absolute;
       left: 0.2rem;
       width: 21.9rem;
@@ -1559,17 +1698,25 @@ height: 22px;
     margin-bottom: 3px;
     border: 1px solid #bba693;
     color: #0b3262;
-    height: 23px;
+    height: 20px;
     float: left;
     margin-right: 1rem;
-    font-size: large;
-    padding-left: 3px;
+    font-size: 7px;
+    padding-left: 0px;
 }
 .dropdown{
   position: absolute;
-  top: 53px;
+  top: 47px;
   width: 45%;
   height: 25px;
+}
+.dropdown-menu ul, li {
+  width: 100%;
+  color: #0b3262;
+  font-weight: bold;
+  font-size: 9px;
+  font-family: Myriad Pro;
+  border: 1px solid #bba693;
 }
 #form button {
   width: 100%;
@@ -1611,7 +1758,7 @@ height: 22px;
       
       ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
       
-        font-size: 10px;
+        font-size: 8px;
         left: 3px;
         text-align: left;
 
@@ -1643,7 +1790,7 @@ height: 22px;
         top: 40.9rem;
       }
       .section6 {
-        top: 1.3rem;
+        top: 1.9rem;
       }
       .style_sp5 {
         position: absolute;
@@ -1657,29 +1804,43 @@ height: 22px;
         top: 4rem;
         left: 1rem;
       }
+     
       .style_sp1 {
         left: 2rem;
-        width: 22%;
+        width: 29%;
         float: left;
-        
-      }
+    }
       .style_sp1 img {
       width: 100%;
       }
       .style_sp2 {
         top: -1rem;
         float: left;
-        width: 22%;
+        width: 30%;
         padding-top: 3rem;
-      }
+        position: absolute;
+        left: 3.7rem;
+    }
       .style_img img {
         width: 100%;
       }
       .style_sp3 {
-       float: left;
-        top: -8rem;
-        width: 23%;
-      }
+        float: left;
+        top: 0rem;
+        width: 22%;
+        position: absolute;
+        left: 10.6rem;
+    }
+      .style_sp3 img{
+        float: left;
+     
+         width: 100%;
+       }
+       .style_sp{
+        top: -24rem;
+        padding-left: 4rem;
+        display: block;
+       }
       .style_sp3 img{
         float: left;
      
@@ -1697,7 +1858,7 @@ height: 22px;
         float: left;
       }
       .style_sp{
-        top: -26rem;
+        top: -25.6rem;
         padding-left: 6rem;
         display: block;
       }
@@ -1720,32 +1881,37 @@ height: 22px;
         top: -17px;
         left: 6rem;
     }
+    .style_section6 {
+      position: absolute;
+      bottom: 0.3rem;
+      width: 100%;
+  }
     }
     @media only screen and (min-device-width : 414px) and (max-device-width :425px){
       /* Styles */
       #form {
         padding: 0rem;
-        top: -7.7rem;
+        top: -6.7rem;
         position: absolute;
-        left: 0.2rem;
+        left: 0.8rem;
         width: 23.9rem;
     }
     #form input {
       width: 45%;
-      margin-bottom: 7px;
+      margin-bottom: 3px;
       border: 1px solid #bba693;
       color: #0b3262;
-      height: 23px;
+      height: 19px;
       float: left;
       margin-right: 1rem;
       font-size: 8px;
-      padding-left: 3px;
+      padding-left: 0;
   }
   .dropdown{
     position: absolute;
-    top: 59px;
+    top: 45px;
     width: 45%;
-    height: 25px;
+    height: 19px;
 }
   #form button {
     width: 100%;
@@ -1786,7 +1952,7 @@ height: 22px;
        
         ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         
-          font-size: 10px;
+          font-size: 8px;
           left: 3px;
          
         }
@@ -1797,9 +1963,9 @@ height: 22px;
           background-color: #31658a;
           color: #fff;
           font-weight: bold;
-          font-size: 10px;
+          font-size: 9px;
           font-family: Myriad Pro;
-          height: 21px;
+          height: 19px;
           background-image: none;
           /* background-repeat: no-repeat; */
           /* background-size: cover; */
@@ -1832,31 +1998,32 @@ height: 22px;
         }
         .style_section6 {
           position: absolute;
-          bottom: 0rem;
+          bottom: 6px;
           width: 100%;
       }
         .style_sp1 {
           left: 2rem;
-          width: 22%;
+          width: 28%;
           float: left;
-          
         }
         .style_sp1 img {
         width: 100%;
         }
         .style_sp2 {
-          top: -1rem;
+          top: 0rem;
           float: left;
-          width: 22%;
+          width: 32%;
           padding-top: 3rem;
+          position: absolute;
         }
         .style_img img {
           width: 100%;
         }
         .style_sp3 {
-         float: left;
-          top: -8rem;
-          width: 23%;
+          float: left;
+          top: 1rem;
+          width: 24%;
+          position: absolute;
         }
         .style_sp3 img{
           float: left;
@@ -1874,11 +2041,11 @@ height: 22px;
           left: 1rem;
           float: left;
         }
-        .style_sp{
-          top: -27rem;
+        .style_sp {
+          top: -26rem;
           padding-left: 6rem;
           display: block;
-        }
+      }
         .style_sp img {
           width: 55px;
           float: left;
@@ -2008,44 +2175,47 @@ height: 22px;
           }
           .style_sp5 {
             position: absolute;
-          top: -6.7rem;
-          left: 8.5rem;
-          }
-          .style_sp5 img{
-            width: 20%;
-          }
+            top: -8.7rem;
+            left: 11.5rem;
+        }
+        .style_sp5 img {
+          width: 26%;
+      }
           .style_section4 {
             top: 4rem;
             left: 1rem;
           }
           .style_section6 {
             position: absolute;
-            bottom: 0rem;
+            bottom: 6px;
             width: 100%;
         }
-          .style_sp1 {
-            left: 2rem;
-            width: 22%;
-            float: left;
-            
-          }
+        .style_sp1 {
+          left: 2rem;
+          width: 29%;
+          float: left;
+      }
           .style_sp1 img {
           width: 100%;
           }
           .style_sp2 {
             top: -1rem;
             float: left;
-            width: 22%;
-            padding-top: 3rem;
-          }
+            width: 31%;
+            padding-top: 4rem;
+            left: 4.2rem;
+            position: absolute;
+        }
           .style_img img {
             width: 100%;
           }
           .style_sp3 {
-           float: left;
-            top: -8rem;
-            width: 23%;
-          }
+            float: left;
+            top: 1rem;
+            width: 24%;
+            position: absolute;
+            left: 11.6rem;
+        }
           .style_sp3 img{
             float: left;
          
