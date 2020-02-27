@@ -111,7 +111,7 @@ p,
     background-size: contain;
   }
 
-   #form{
+   #form1{
     /* width: 30rem;
     height: auto; */
     padding: 0rem ;
@@ -121,7 +121,7 @@ p,
     position:absolute;
     left: 0;
   }
-  #form input{
+  #form1 input{
     width: 95%;
     margin-bottom: 1rem;
     border: 1px solid #bba693;
@@ -151,7 +151,7 @@ p,
   .dropdown-menu ul,li a{
     color: #0b3262;
   }
-   #form button{
+   #form1 button{
     width:95%;
     margin-bottom: 10px;
     border: 1px solid #bba693;
@@ -166,7 +166,7 @@ p,
   .dropdown-menu li:hover{
     background-color: #a6dcf6;
   }
-#form .style_buttom{
+#form1 .style_buttom{
     width:17rem;
     margin-bottom: 10px;
     border: 1px solid #bba693;
@@ -182,11 +182,11 @@ p,
     border: none;
     margin: 0 0 0 3rem;
   }
- #form .style_buttom:hover{
+ #form1 .style_buttom:hover{
     transform: scale(1.1);
     color: #022d4c;
   }
-  #form button:hover{
+  #form1 button:hover{
     transform: scale(1);
   }
 
@@ -382,6 +382,24 @@ p,
 
   /*  tablet  */
   @media only screen  and (min-width : 768px) and (max-device-width : 1000px) {
+    
+    .dropdown-toggle{
+      width: 100%;
+    height: 20px;
+    font-weight: bold;
+    color: #0b3262;
+    font-family: Myriad Pro;
+    padding-left:5px;
+    }
+    
+    .dropdown-toggle option{
+      width: 100%;
+      height: 20px;
+      font-weight: bold;
+      color: #0b3262;
+      font-family: Myriad Pro;
+      padding-left: 5px;
+    }
     .section2 {
       width: 100%;
       position: absolute;
@@ -401,7 +419,7 @@ p,
     right: 12px;
     bottom: 0;
 }
-#form .style_buttom {
+#form1 .style_buttom {
   width: 100%;
   margin-bottom: 10px;
   height: 2.1rem;
@@ -409,6 +427,7 @@ p,
   margin: 0 0 0 0rem;
   background-size: cover;
   font-size: 7pt;
+  margin-top: 8px;
 }
 .style_anh {
   padding: 0;
@@ -439,20 +458,20 @@ p,
 
   width: 7rem;
 }
-#form button {
+#form1 button {
   width: 100%;
   margin-bottom: 8px;
   font-size: 5pt;
   height: 1.5rem;
   border-radius: unset;
 }
-#form input {
+#form1 input {
   width: 100%;
   margin-bottom: 0.3rem;
   font-size: 11px;
   height: 1.5rem;
 }
-#form {
+#form1 {
   padding: 0rem;
   top: 7.5rem;
   position: absolute;
@@ -474,7 +493,7 @@ p,
       font-family: Myriad Pro;
       border: 1px solid #bba693;
   }
-    #form button {
+    #form1 button {
       width: 100%;
       margin-bottom: 8px;
       font-size: 5pt;
@@ -561,7 +580,7 @@ p,
       background-color: transparent;
       transform: scale(1.1);
     }
-      #form {
+      #form1 {
       top: -15rem;
       width: 70%;
       left: 6rem;
@@ -580,13 +599,13 @@ p,
         bottom: 1.3rem;
         border: 0;
        }
-      #form input {
+      #form1 input {
         width: 100%;
         margin-bottom: 0.5rem;
         padding-left: 7px;
         height: 1.5rem;
       }
-      #form .style_buttom {
+      #form1 .style_buttom {
         width: -webkit-fill-available;
         margin-bottom: 10px;
         font-size: 10pt;
@@ -596,7 +615,7 @@ p,
         background-position: center;
         
       }
-      #form button {
+      #form1 button {
         width: 100%;
         margin-bottom: 10px;
         font-size: 10px;
@@ -609,11 +628,11 @@ p,
       ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         font-size: 10px;
       }
-      #form .style_buttom {
+      #form1 .style_buttom {
         margin: 0 0 0 0rem;
         font-size: 10px;
     }
-      #form .style_buttom{
+      #form1 .style_buttom{
         margin: 0 0 0 0rem;
       }
       .dropdown-menu ul, li {
@@ -711,6 +730,23 @@ p,
       }
   @media only screen  and (min-width : 1280px) and (max-device-width : 1365px) {
     /* Styles */
+    .dropdown-toggle{
+      width: 100%;
+    height: 40px;
+    font-weight: bold;
+    color: #0b3262;
+    font-family: Myriad Pro;
+    padding-left: 25px;
+    }
+    
+    .dropdown-toggle option{
+      width: 100%;
+      height: 40px;
+      font-weight: bold;
+      color: #0b3262;
+      font-family: Myriad Pro;
+      padding-left: 25px;
+    }
     .btn-top {
       background-image: url("/img/nutdk.png");
       background-repeat: no-repeat;
@@ -737,7 +773,7 @@ p,
     .section7{
       display: none;
     }
-    #form {
+    #form1 {
       top: -20rem;
       width: 82%;
       left: 3.4rem;
@@ -750,7 +786,7 @@ p,
 ::placeholder{
   font-size: 13px;
 }
-    #form input {
+    #form1 input {
       width: 100%;
       margin-bottom: 0.5rem;
       height: 2.5rem;
@@ -780,12 +816,12 @@ p,
     left: 8rem;
     
   }
-  #form button {
+  #form1 button {
     font-size: 13px;
     height: 2.5rem;
     border-radius: unset;
   }
-  #form .style_buttom {
+  #form1 .style_buttom {
     margin: 0.8rem 2rem 0 2rem;
     height: 3rem;
     background-size: contain;
@@ -852,6 +888,23 @@ p,
     }
   @media only screen  and (min-width : 1366px) {
   /* Styles */
+  .dropdown-toggle{
+    width: 100%;
+  height: 40px;
+  font-weight: bold;
+  color: #0b3262;
+  font-family: Myriad Pro;
+  padding-left: 25px;
+  }
+  
+  .dropdown-toggle option{
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    color: #0b3262;
+    font-family: Myriad Pro;
+    padding-left: 25px;
+  }
   .btn-top {
     background-image: url("/img/nutdk.png");
     background-repeat: no-repeat;
@@ -875,7 +928,7 @@ p,
   .section7{
     display: none;
   }
-    #form {
+    #form1 {
     top: -21rem;
     width: 89%;
       left: 2rem;
@@ -885,7 +938,7 @@ p,
       top: 40rem;
   }
 
-  #form input {
+  #form1 input {
     width: 100%;
     margin-bottom: 0.5rem;
     height: 2.5rem;
@@ -918,12 +971,12 @@ p,
   left: 8rem;
   
 }
-#form button {
+#form1 button {
   font-size: 15px;
   height: 2.5rem;
   border-radius: unset;
 }
-#form .style_buttom {
+#form1 .style_buttom {
   margin: 1.5rem 2rem 0 2rem;
   height: 3rem;
   background-size: contain;
@@ -984,6 +1037,23 @@ p,
 
   @media only screen  and (min-width : 1440px){
     /* Styles */
+    .dropdown-toggle{
+      width: 100%;
+    height: 40px;
+    font-weight: bold;
+    color: #0b3262;
+    font-family: Myriad Pro;
+    padding-left: 25px;
+    }
+    
+    .dropdown-toggle option{
+      width: 100%;
+      height: 40px;
+      font-weight: bold;
+      color: #0b3262;
+      font-family: Myriad Pro;
+      padding-left: 25px;
+    }
     .btn-primary:hover{
       background-color: transparent;
       transform: scale(1.1);
@@ -991,13 +1061,13 @@ p,
     ::placeholder{
       font-size: 15px;
     }
-    #form {
+    #form1 {
       left: 0rem;
       top: -22rem;
       width: 90%;
       z-index: 1;
   }
-      #form button{
+      #form1 button{
         font-size: 15px;
         height: 2.5rem;
         border-radius: unset;
@@ -1010,9 +1080,7 @@ p,
         font-family: Myriad Pro;
         border: 1px solid #bba693;
     }
-      #form .style_buttom{
-        margin: 0 0 0 2rem;
-      }
+     
       .btn-top {
         background-image: url("/img/nutdk.png");
         background-repeat: no-repeat;
@@ -1050,16 +1118,17 @@ p,
       .style_section6 {
         bottom: 1.2rem;
       }
-      #form input {
+      #form1 input {
         width: 100%;
         margin-bottom: 0.5rem;
         height: 2.5rem;
         font-size: 15px;
         padding-left: 10px;
     }
-    #form .style_buttom {
+    #form1 .style_buttom {
       margin: 0 0 0 0rem;
       height: 2.5rem;
+      margin-top: 17px;
   }
   .style_sp1 {
     left: 0rem;
@@ -1117,7 +1186,7 @@ p,
     .section3 {
       top: 108.7rem;
     }
-    #form .style_buttom {
+    #form1 .style_buttom {
       margin: 1.5rem 2rem 0 2rem;
       height: 3rem;
       background-size: contain;
@@ -1126,7 +1195,24 @@ p,
     .dropdown-menu{
       width: 435px;
     }
-    #form {
+    .dropdown-toggle{
+      width: 100%;
+    height: 56px;
+    font-weight: bold;
+    color: #0b3262;
+    font-family: Myriad Pro;
+    padding-left: 25px;
+    }
+    .dropdown-toggle option{
+      width: 100%;
+      height: 56px;
+      font-weight: bold;
+      color: #0b3262;
+      font-family: Myriad Pro;
+      padding-left: 25px;
+    }
+    
+    #form1 {
       padding: 0rem;
       top: -31rem;
       position: absolute;
@@ -1134,14 +1220,14 @@ p,
       width: 118%;
       z-index: 1;
   }
-    #form input {
+    #form1 input {
       width: 100%;
       margin-bottom: 1rem;
       height: 3.5rem;
       font-size: 20pt;
       padding-left: 12px;
   }
-  #form button {
+  #form1 button {
     font-size: 15pt;
     height: 3.5rem;
     border-radius: unset;
@@ -1208,7 +1294,7 @@ p,
 .section3 {
   top: 149.5rem;
 }
-    #form {
+    #form1 {
       padding: 0rem;
       top: -40rem;
       position: absolute;
@@ -1285,14 +1371,14 @@ p,
 .style_section6 {
   bottom: 2.4rem;
 }
-#form input {
+#form1 input {
   width: 100%;
   margin-bottom: 1rem;
   height: 4.5rem;
   font-size: 20pt;
   padding-left: 12px;
 }
-#form button {
+#form1 button {
   font-size: 25px;
   height: 4.5rem;
   border-radius: unset;
@@ -1305,7 +1391,7 @@ p,
   border: 1px solid #bba693;
   height: 4rem;
 }
-#form .style_buttom {
+#form1 .style_buttom {
   height: 5rem;
   background-size: contain;
   font-size: 25px;
@@ -1316,14 +1402,33 @@ p,
   /* iPhone 4 ----------- */
   @media only screen and (min-device-width : 320px) and (max-device-width :359px){
   /* Styles */
-  #form {
+  .dropdown-toggle{
+    width: 100%;
+  height: 15px;
+  font-weight: bold;
+  color: #0b3262;
+  font-family: Myriad Pro;
+  padding-left:5px;
+  font-size: 7px;
+  }
+  
+  .dropdown-toggle option{
+    width: 100%;
+    height: 15px;
+    font-weight: bold;
+    color: #0b3262;
+    font-family: Myriad Pro;
+    padding-left: 5px;
+    font-size: 7px;
+  }
+  #form1 {
     padding: 0rem;
     top: -5.1rem;
     position: absolute;
     left: 0.2rem;
     width: 18.9rem;
 }
-#form input {
+#form1 input {
   width: 45%;
   margin-bottom: 3px;
   border: 1px solid #bba693;
@@ -1340,7 +1445,7 @@ p,
   width: 45%;
   height: 25px;
 }
-#form button {
+#form1 button {
   width: 100%;
   border: 1px solid #bba693;
   background-color: #FFF;
@@ -1370,7 +1475,7 @@ p,
       left: 3px;
      
     }
-    #form .style_buttom {
+    #form1 .style_buttom {
       width: 45%;
       margin-bottom: 10px;
       border: 1px solid #bba693;
@@ -1498,6 +1603,25 @@ p,
   }
   @media only screen and (min-device-width : 360px) and (max-device-width :374px){
     /* Styles */
+    .dropdown-toggle{
+      width: 100%;
+    height: 20px;
+    font-weight: bold;
+    color: #0b3262;
+    font-family: Myriad Pro;
+    padding-left:5px;
+    font-size: 7px;
+    }
+    
+    .dropdown-toggle option{
+      width: 100%;
+      height: 20px;
+      font-weight: bold;
+      color: #0b3262;
+      font-family: Myriad Pro;
+      padding-left: 5px;
+      font-size: 7px;
+    }
     .section2 {
       width: 100%;
       position: absolute;
@@ -1506,19 +1630,19 @@ p,
       .section2 .style_img{
         padding:0;
       }
-      #form {
+      #form1 {
         padding: 0rem;
-        top: -6.7rem;
+        top: -6.2rem;
         position: absolute;
         left: 0rem;
         width: 21rem;
     }
-    #form input {
+    #form1 input {
       width: 45%;
       margin-bottom: 3px;
       border: 1px solid #bba693;
       color: #0b3262;
-      height: 23px;
+      height: 20px;
       float: left;
       margin-right: 1rem;
       font-size: 12px;
@@ -1526,11 +1650,11 @@ p,
   }
   .dropdown{
     position: absolute;
-    top: 53px;
+    top: 46px;
     width: 45%;
     height: 25px;
   }
-  #form button {
+  #form1 button {
     width: 100%;
     border: 1px solid #bba693;
     background-color: #FFF;
@@ -1547,7 +1671,7 @@ p,
   }
       ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
       
-        font-size: 12px;
+        font-size: 7px;
         left: 2px;
         
         
@@ -1575,7 +1699,7 @@ p,
       right: 12px;
       bottom: -2rem;
   }
-      #form .style_buttom {
+      #form1 .style_buttom {
         width: 45%;
         margin-bottom: 10px;
         border: 1px solid #bba693;
@@ -1686,14 +1810,33 @@ p,
     }
   @media only screen and (min-device-width : 375px) and (max-device-width :414px){
     /* Styles */
-    #form {
+    .dropdown-toggle{
+      width: 100%;
+    height: 20px;
+    font-weight: bold;
+    color: #0b3262;
+    font-family: Myriad Pro;
+    padding-left:5px;
+    font-size: 7px;
+    }
+    
+    .dropdown-toggle option{
+      width: 100%;
+      height: 20px;
+      font-weight: bold;
+      color: #0b3262;
+      font-family: Myriad Pro;
+      padding-left: 5px;
+      font-size: 7px;
+    }
+    #form1 {
       padding: 0rem;
       top: -6.3rem;
       position: absolute;
       left: 0.2rem;
       width: 21.9rem;
   }
-  #form input {
+  #form1 input {
     width: 45%;
     margin-bottom: 3px;
     border: 1px solid #bba693;
@@ -1718,7 +1861,7 @@ p,
   font-family: Myriad Pro;
   border: 1px solid #bba693;
 }
-#form button {
+#form1 button {
   width: 100%;
   border: 1px solid #bba693;
   background-color: #FFF;
@@ -1764,7 +1907,7 @@ p,
 
        
       }
-      #form .style_buttom {
+      #form1 .style_buttom {
         width: 45%;
         margin-bottom: 10px;
         border: 1px solid #bba693;
@@ -1889,14 +2032,33 @@ p,
     }
     @media only screen and (min-device-width : 414px) and (max-device-width :425px){
       /* Styles */
-      #form {
+      .dropdown-toggle{
+        width: 100%;
+      height: 20px;
+      font-weight: bold;
+      color: #0b3262;
+      font-family: Myriad Pro;
+      padding-left:5px;
+      font-size: 7px;
+      }
+      
+      .dropdown-toggle option{
+        width: 100%;
+        height: 20px;
+        font-weight: bold;
+        color: #0b3262;
+        font-family: Myriad Pro;
+        padding-left: 5px;
+        font-size: 7px;
+      }
+      #form1 {
         padding: 0rem;
         top: -6.7rem;
         position: absolute;
         left: 0.8rem;
         width: 23.9rem;
     }
-    #form input {
+    #form1 input {
       width: 45%;
       margin-bottom: 3px;
       border: 1px solid #bba693;
@@ -1913,7 +2075,7 @@ p,
     width: 45%;
     height: 19px;
 }
-  #form button {
+  #form1 button {
     width: 100%;
     border: 1px solid #bba693;
     background-color: #FFF;
@@ -1956,7 +2118,7 @@ p,
           left: 3px;
          
         }
-        #form .style_buttom {
+        #form1 .style_buttom {
           width: 45%;
           margin-bottom: 10px;
           border: 1px solid #bba693;
@@ -2068,6 +2230,25 @@ p,
       }
       @media only screen and (min-device-width : 425px) and (max-device-width :555px){
         /* Styles */
+        .dropdown-toggle{
+          width: 100%;
+        height: 20px;
+        font-weight: bold;
+        color: #0b3262;
+        font-family: Myriad Pro;
+        padding-left:5px;
+        font-size: 7px;
+        }
+        
+        .dropdown-toggle option{
+          width: 100%;
+          height: 20px;
+          font-weight: bold;
+          color: #0b3262;
+          font-family: Myriad Pro;
+          padding-left: 5px;
+          font-size: 7px;
+        }
         .section2 {
           width: 100%;
           position: absolute;
@@ -2091,14 +2272,14 @@ p,
             bottom: -2rem;
         }
            
-           #form {
+           #form1 {
             padding: 0rem;
             top: -7.7rem;
             position: absolute;
             left: 0.2rem;
             width: 23.9rem;
         }
-        #form input {
+        #form1 input {
           width: 45%;
           margin-bottom: 7px;
           border: 1px solid #bba693;
@@ -2115,7 +2296,7 @@ p,
         width: 45%;
         height: 25px;
     }
-      #form button {
+      #form1 button {
         width: 100%;
         border: 1px solid #bba693;
         background-color: #FFF;
@@ -2145,7 +2326,7 @@ p,
             left: 3px;
            
           }
-          #form .style_buttom {
+          #form1 .style_buttom {
             width: 45%;
             margin-bottom: 10px;
             border: 1px solid #bba693;
