@@ -561,6 +561,23 @@ p,
   /* Desktops and laptops ----------- */
   @media only screen  and (min-width : 1024px) {
     /* Styles */
+    .dropdown-toggle{
+      width: 100%;
+    height: 25px;
+    font-weight: bold;
+    color: #0b3262;
+    font-family: Myriad Pro;
+    padding-left: 25px;
+    }
+    
+    .dropdown-toggle option{
+      width: 100%;
+      height: 25px;
+      font-weight: bold;
+      color: #0b3262;
+      font-family: Myriad Pro;
+      padding-left: 25px;
+    }
     .btn-top {
       background-image: url("/img/nutdk.png");
       background-repeat: no-repeat;
@@ -613,6 +630,10 @@ p,
         height: 2rem;
         background-size: cover;
         background-position: center;
+            margin-top: 10px;
+            margin: 0 0 0 0rem;
+            font-size: 10px;
+            margin-top: 10px;
         
       }
       #form1 button {
@@ -628,13 +649,8 @@ p,
       ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         font-size: 10px;
       }
-      #form1 .style_buttom {
-        margin: 0 0 0 0rem;
-        font-size: 10px;
-    }
-      #form1 .style_buttom{
-        margin: 0 0 0 0rem;
-      }
+
+     
       .dropdown-menu ul, li {
         width: 100%;
         color: #0b3262;
@@ -664,7 +680,7 @@ p,
         top: 107.6rem;
       }
       .section6 {
-        top: 3rem;
+        top: 1rem;
 
     }
       .style_section6 {
@@ -1471,7 +1487,7 @@ p,
    
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     
-      font-size: 6px;
+      font-size: 5px;
       left: 3px;
      
     }
@@ -1482,7 +1498,7 @@ p,
       background-color: #31658a;
       color: #fff;
       font-weight: bold;
-      font-size: 8px;
+      font-size: 5px;
       font-family: Myriad Pro;
       height: 15px;
       background-image: none;
@@ -1901,7 +1917,7 @@ p,
       
       ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
       
-        font-size: 8px;
+        font-size: 7px;
         left: 3px;
         text-align: left;
 
@@ -1914,7 +1930,7 @@ p,
         background-color: #31658a;
         color: #fff;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 7px;
         font-family: Myriad Pro;
         height: 21px;
         background-image: none;
@@ -2322,7 +2338,7 @@ p,
   }
           ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
           
-            font-size: 9px;
+            font-size: 7px;
             left: 3px;
            
           }
@@ -2333,7 +2349,7 @@ p,
             background-color: #31658a;
             color: #fff;
             font-weight: bold;
-            font-size: 10px;
+            font-size:7px;
             font-family: Myriad Pro;
             height: 21px;
             background-image: none;
